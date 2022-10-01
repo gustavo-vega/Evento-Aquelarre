@@ -61,7 +61,9 @@ function agregarCarrito(producto) {
             { ...enCarrito, cantidad: enCarrito.cantidad + 1}
         ]
      }
-     console.log(carrito)
+     contador.innerHTML = carrito.reduce((acc, prod) => acc + prod.cantidad, 0)
 }
 
 
+const contador = document.getElementById('cardCounter')
+contador.innerHTML = carrito.reduce((acc, prod) => acc + prod.cantidad, 0)

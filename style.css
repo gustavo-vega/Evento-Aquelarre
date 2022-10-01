@@ -144,6 +144,16 @@ body {
   background-color: #11553b;
   text-align: center; }
 
+
+.imgcarrito {
+  padding: 10px;
+}
+
+#cardCounter {
+  font-size: 26px;
+  color:black;
+}
+
 @media (max-width: 768px) {
   header {
     flex-direction: column; }
